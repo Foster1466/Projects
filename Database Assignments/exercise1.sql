@@ -18,3 +18,7 @@ insert into customers values(4, 'Kevin', 'Tokyo', 202, '2022-06-01 11:30:00');
 
 select * from customers
 
+
+
+
+
