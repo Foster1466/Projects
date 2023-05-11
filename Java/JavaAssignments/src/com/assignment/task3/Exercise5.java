@@ -2,15 +2,18 @@ package com.assignment.task3;
 
 import java.util.Scanner;
 
-public class Exercise2 {
+public class Exercise5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int n = sc.nextInt(), res=1;
+        int n = sc.nextInt(), sum = 0, i=1;
 
-        for(int i=n;i>0;i--){
-            res *= i;
+        while (i<=n){
+            if (i%2==0){
+                sum+=i;
+            }
+            i+=1;
         }
-        System.out.println("Result: " + res);
+        System.out.println("Sum: "+sum);
     }
 }
